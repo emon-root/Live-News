@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shadhinsoft.livenews.MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/prothomAlo"
+            android:text="Prothom Alo"
+            android:background="#df62f2aa" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/bdlive"
+            android:text="BD LIVE"
+            android:layout_below="@+id/prothomAlo"
+            android:background="#df62f2aa" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/bdnews24"
+            android:text="BD NEWS 24"
+            android:layout_below="@+id/bdlive"
+            android:background="#df62f2aa" />
+
+    </RelativeLayout>
+
+
+</ScrollView>
